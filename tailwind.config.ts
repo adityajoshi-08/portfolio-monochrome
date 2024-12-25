@@ -8,7 +8,14 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+	fontFamily:{
+		'gabrielBold':['var(--gabriel-bold)'],
+		'jersey':['var(--jersey)'],
+		'futura':['var(--futura)'],
+		'poppins':['var(--poppins)'],
+	},
   	extend: {
+		
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
@@ -58,5 +65,6 @@ export default {
   		}
   	}
   },
+  
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
