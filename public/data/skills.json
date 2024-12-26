@@ -1,0 +1,88 @@
+{
+  "languages": [
+    {
+      "name": "JavaScript",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "image": "/svg/skills/javascript.svg"
+    },
+    {
+      "name": "TypeScript",
+      "link": "https://www.typescriptlang.org/",
+      "image": "/svg/skills/typescript.svg"
+    },
+    {
+      "name": "Solidity",
+      "link": "https://soliditylang.org/",
+      "image": "/svg/skills/solidity.svg"
+    },
+    {
+      "name": "Java",
+      "link": "https://www.oracle.com/java/",
+      "image": "/svg/skills/java.svg"
+    },
+    {
+      "name": "Python",
+      "link": "https://www.python.org/",
+      "image": "/svg/skills/python.svg"
+    }
+  ],
+  "libraries": [
+    {
+      "name": "React",
+      "link": "https://react.dev/",
+      "image": "/svg/skills/reactjs.svg"
+    },
+    {
+      "name": "Next.js",
+      "link": "https://nextjs.org/",
+      "image": "/svg/skills/nextjs.svg"
+    },
+    {
+      "name": "Node.js",
+      "link": "https://nodejs.org/",
+      "image": "/svg/skills/nodejs.svg"
+    },
+    {
+      "name": "Express",
+      "link": "https://expressjs.com/",
+      "image": "/svg/skills/express.svg"
+    },
+    {
+      "name": "Tailwind CSS",
+      "link": "https://tailwindcss.com/",
+      "image": "/svg/skills/tailwind.svg"
+    },
+    {
+      "name": "GSAP",
+      "link": "https://greensock.com/gsap/",
+      "image": "/svg/skills/gsap.svg"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Ethereum",
+      "link": "https://ethereum.org/",
+      "image": "/svg/skills/ethereum.svg"
+    },
+    {
+      "name": "Figma",
+      "link": "https://www.figma.com/",
+      "image": "/svg/skills/figma.svg"
+    },
+    {
+      "name": "Docker",
+      "link": "https://www.docker.com/",
+      "image": "/svg/skills/docker.svg"
+    },
+    {
+      "name": "Git",
+      "link": "https://git-scm.com/",
+      "image": "/svg/skills/git.svg"
+    },
+    {
+      "name": "MongoDB",
+      "link": "https://www.mongodb.com/",
+      "image": "/svg/skills/mongo.svg"
+    }
+  ]
+}
