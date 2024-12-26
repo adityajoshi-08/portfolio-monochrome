@@ -1,7 +1,6 @@
 'use client'
 import React from 'react'
 import skills from '@/public/data/skills.json';
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 
 interface SkillProp {
