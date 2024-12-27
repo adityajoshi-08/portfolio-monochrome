@@ -60,6 +60,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Aditya Joshi",
   description: "Engineer • Buildooor • Developer",
+  icons: {
+    icon: './favicon.ico',
+  },
 };
 
 export default function RootLayout({
