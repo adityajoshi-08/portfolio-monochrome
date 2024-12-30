@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   title: "Aditya Joshi",
   description: "Engineer • Buildooor • Developer",
   icons: {
-    icon: './favicon.ico',
+    icon: '/favicon.ico',
   },
 };
 
