@@ -13,7 +13,7 @@ export default function Hero() {
       </div>
       <div className="mid flex flex-col justify-center items-center gap-7">
         <div className="row">
-          <h1 className="name font-futura text-[6rem] font-semibold stroke-black text-[#363636] tracking-tighter">ADITYA JOSHI</h1>
+          <h1 className="name font-futura lg:text-[5rem] text-[6rem] font-semibold stroke-black text-[#363636] tracking-tighter">ADITYA JOSHI</h1>
         </div>
         <div className="row flex relative ">
           <div className="photo h-[12rem] w-[12rem] drop-shadow-2xl rounded-2xl p-2 flex items-center justify-center overflow-hidden bg-white relative rotate-[-2deg]">
@@ -33,8 +33,8 @@ export default function Hero() {
           <div className="photo"></div>
         </div>
         <div className="row mt-8">
-          <h1 className="font-futura text-[6rem] font-semibold stroke-[#D2D2D2] text-[#D2D2D2] tracking-tighter leading-none">DEVELOPER &</h1>
-          <h1 className="font-futura text-[6rem] font-semibold stroke-[#D2D2D2] text-[#D2D2D2] tracking-tighter leading-none">COMMUNITY BUIDLER</h1>
+          <h1 className="font-futura lg:text-[5rem] text-[6rem] font-semibold stroke-[#D2D2D2] text-[#D2D2D2] tracking-tighter leading-none">DEVELOPER &</h1>
+          <h1 className="font-futura lg:text-[5rem] text-[6rem] font-semibold stroke-[#D2D2D2] text-[#D2D2D2] tracking-tighter leading-none">COMMUNITY BUIDLER</h1>
         </div>
       </div>
 

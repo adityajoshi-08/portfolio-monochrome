@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Hack The League",
+        "image": "/svg/communities/htl.svg",
+        "link": "https://hacktheleague.com/"
+    },
+    {
+        "name": "Google Developers",
+        "image": "/svg/communities/google-developers.svg",
+        "link": "https://developers.google.com/",
+        "width": 25
+    },
+    {
+        "name": "Polygon Jaipur",
+        "image": "/svg/communities/polygon-jaipur.svg",
+        "link": "https://x.com/polygonjaipur/"
+    },
+    {
+        "name": "Dabl Club",
+        "image": "/svg/communities/dabl-club.svg",
+        "link": "https://dabl.club/"
+    },
+    {
+        "name": "MorphL2",
+        "image": "/svg/communities/morph.svg",
+        "link": "https://morphl2.io/"
+    },
+    {
+        "name": "Flutter Jaipur",
+        "image": "/svg/communities/flutter-jaipur.svg",
+        "link": "https://x.com/Flutter_Jaipur"
+    },
+    {
+        "name": "Push Protocol",
+        "image": "/svg/communities/push-protocol.png",
+        "link": "https://push.org/"
+    }
+]

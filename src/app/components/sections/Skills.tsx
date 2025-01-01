@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import skills from '@/public/data/skills.json';
+import { STRING_LITERAL_DROP_BUNDLE } from 'next/dist/shared/lib/constants';
 
 
 interface SkillProp {
@@ -15,7 +16,7 @@ export default function Skills() {
   const tools = skills.tools;
 
   return (
-    <div className=' h-[100vh] w-full flex flex-col overflow-hidden justify-center items-center text-center py-12 relative'>
+    <div className='min-h-[100vh] w-full flex flex-col justify-center items-center text-center py-12 relative'>
       <div className="absolute top-0 left-0 w-[100vw] h-full ">
         <img src="/images/skillsbg/ethereum.svg" className='w-2/6 object-cover absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] opacity-5' alt="" />
         <img src="/images/skillsbg/blockchain.svg" className='w-60 object-cover rotate-[-12deg] absolute left-16 top-20 opacity-20' alt="" />
@@ -23,7 +24,7 @@ export default function Skills() {
         <img src="/images/skillsbg/desktop.svg" className='w-60 object-cover rotate-10 absolute right-28 top-20 opacity-5' alt="" />
         <img src="/images/skillsbg/tablesetup.svg" className='w-60 object-cover rotate-[20deg] absolute right-28 bottom-20 opacity-20' alt="" />
       </div>
-        <div className='flex flex-col justify-between items-center h-full z-10'>
+        <div className='flex flex-col justify-center items-center h-full z-10 gap-10'>
             <h1 className='font-futura text-[5rem] font-semibold stroke-[#363636] text-[#363636] tracking-tighter leading-none'>SKILLS</h1>
             <div className='flex flex-col w-[70vw] gap-[7vh]'>
                 <Skill skilltype='languages' skilldata={languages} />
@@ -64,3 +65,12 @@ function Skill({skilltype, skilldata}: SkillProp ){
 
   )
 }
+
+/*
+  slider-section
+      wheel
+          wheel-card
+          wheel-card
+          wheel-card
+          wheel-card
+      */
