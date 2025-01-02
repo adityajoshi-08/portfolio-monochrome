@@ -5,10 +5,10 @@
         "link": "https://hacktheleague.com/"
     },
     {
-        "name": "Google Developers",
+        "name": "Google Devs",
         "image": "/svg/communities/google-developers.svg",
         "link": "https://developers.google.com/",
-        "width": 25
+        "width": 225
     },
     {
         "name": "Polygon Jaipur",

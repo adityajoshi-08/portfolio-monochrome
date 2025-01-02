@@ -52,7 +52,7 @@ function Skill({skilltype, skilldata}: SkillProp ){
         </RoughNotation> */}
         {skilltype.toUpperCase()}
       </h1>
-      <div className='row flex flex-wrap justify-start items-center gap-8'>
+      <div className='row flex flex-wrap justify-evenly items-center gap-8'>
         {skilldata.map((skill: any, index: number) => (
           <div key={index} className='rounded-xl shadow-md'>
             <a href={skill.link} target='_blank'>

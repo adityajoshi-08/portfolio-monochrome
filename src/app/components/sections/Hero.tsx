@@ -13,28 +13,25 @@ export default function Hero() {
       </div>
       <div className="mid flex flex-col justify-center items-center gap-7">
         <div className="row">
-          <h1 className="name font-futura lg:text-[5rem] text-[6rem] font-semibold stroke-black text-[#363636] tracking-tighter">ADITYA JOSHI</h1>
+          <h1 className="name font-futura lg:text-[5rem] phone:text-5xl font-semibold stroke-black text-[#363636] tracking-tighter">ADITYA JOSHI</h1>
         </div>
         <div className="row flex relative ">
-          <div className="photo h-[12rem] w-[12rem] drop-shadow-2xl rounded-2xl p-2 flex items-center justify-center overflow-hidden bg-white relative rotate-[-2deg]">
+          <div className="photo phone:h-[6rem] phone:w-[6rem] lg:h-[12rem] lg:w-[12rem] drop-shadow-2xl rounded-2xl p-2 flex items-center justify-center overflow-hidden bg-white relative rotate-[-2deg]">
             <Image src="/svg/1.svg" alt="SVG" width={100} height={100} className="h-full w-full object-contain" />
           </div>
-          <div className="photo h-[12rem] w-[12rem] drop-shadow-2xl rounded-2xl p-2 flex items-center justify-center overflow-hidden bg-white relative rotate-[4deg] ">
+          <div className="photo phone:h-[6rem] phone:w-[6rem] lg:h-[12rem] lg:w-[12rem] drop-shadow-2xl rounded-2xl p-2 flex items-center justify-center overflow-hidden bg-white relative rotate-[4deg] ">
             <Image src="/svg/2.svg" alt="SVG" width={100} height={100} className="h-full w-full object-contain" />
           </div>
-          <div className="photo h-[12rem] w-[12rem] drop-shadow-2xl rounded-2xl p-2 flex items-center justify-center overflow-hidden bg-white relative rotate-[-8deg]">
+          <div className="photo phone:h-[6rem] phone:w-[6rem] lg:h-[12rem] lg:w-[12rem] drop-shadow-2xl rounded-2xl p-2 flex items-center justify-center overflow-hidden bg-white relative rotate-[-8deg]">
             <Image src="/svg/3.svg" alt="SVG" width={100} height={100} className="h-full w-full object-contain" />
           </div>
-          <div className="photo h-[12rem] w-[12rem] drop-shadow-2xl rounded-2xl p-2 flex items-center justify-center overflow-hidden bg-white relative rotate-[1.39deg]">
+          <div className="photo phone:h-[6rem] phone:w-[6rem] lg:h-[12rem] lg:w-[12rem] drop-shadow-2xl rounded-2xl p-2 flex items-center justify-center overflow-hidden bg-white relative rotate-[1.39deg]">
             <Image src="/svg/4.svg" alt="SVG" width={100} height={100} className="h-full w-full object-contain" />
           </div>
-          <div className="photo"></div>
-          <div className="photo"></div>
-          <div className="photo"></div>
         </div>
         <div className="row mt-8">
-          <h1 className="font-futura lg:text-[5rem] text-[6rem] font-semibold stroke-[#D2D2D2] text-[#D2D2D2] tracking-tighter leading-none">DEVELOPER &</h1>
-          <h1 className="font-futura lg:text-[5rem] text-[6rem] font-semibold stroke-[#D2D2D2] text-[#D2D2D2] tracking-tighter leading-none">COMMUNITY BUIDLER</h1>
+          <h1 className="font-futura phone:text-6xl lg:text-[5rem] text-[6rem] font-semibold stroke-[#D2D2D2] text-[#D2D2D2] tracking-tighter leading-none">DEVELOPER &</h1>
+          <h1 className="font-futura phone:text-6xl lg:text-[5rem] text-[6rem] font-semibold stroke-[#D2D2D2] text-[#D2D2D2] tracking-tighter leading-none">COMMUNITY BUIDLER</h1>
         </div>
       </div>
 

@@ -15,7 +15,9 @@ export default {
 		'poppins':['var(--poppins)'],
 	},
   	extend: {
-		
+		screens: {
+			"phone": "400px",
+		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
