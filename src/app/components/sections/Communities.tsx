@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import { redirect } from 'next/navigation'
 import communities from '@/public/data/communities.json'
 interface CommunityProps {
   name: string,
@@ -31,7 +30,7 @@ function CommunityCard({ name, image, link, width, height }: CommunityProps) {
   const defaultHeight = 100;
 
   return (
-    <div className="bg-cyan-200 phone:flex-col flex items-center justify-center phone:w-[80vw] phone:h-[60vw] lg:w-[40vh] lg:h-[40vh] rounded-3xl shadow-2xl">
+    <div className="phone:flex-col flex items-center justify-center phone:w-[80vw] phone:h-[60vw] lg:w-[40vh] lg:h-[40vh] rounded-3xl shadow-2xl">
       <div className="flex flex-col items-center justify-around h-[80%] w-[80%] gap-3 py-3">
         <Image
           src={image}
