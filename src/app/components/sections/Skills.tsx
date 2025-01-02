@@ -10,7 +10,6 @@ interface SkillProp {
 }
 
 export default function Skills() {
-  console.log(skills);
   const languages = skills.languages;
   const libraries = skills.libraries;
   const tools = skills.tools;
