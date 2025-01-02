@@ -16,7 +16,7 @@ export default {
 	},
   	extend: {
 		screens: {
-			"phone": "400px",
+			"phone": "380px",
 		},
   		colors: {
   			background: 'hsl(var(--background))',
